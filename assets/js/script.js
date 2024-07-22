@@ -15,7 +15,7 @@ let cartData = {};
 let number = 0;
 let totalPrice = 0;
 
-myRequest.open("GET", "/assets/js/data.json", true);
+myRequest.open("GET", "assets/js/data.json", true);
 myRequest.send();
 
 myRequest.onreadystatechange = function () {
