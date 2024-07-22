@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product list with cart</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/all.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="cards-container">
+        <h1>Dessert</h1>
+        <div class="cards">
+          <!-- Card Example -->
+
+          <!-- Repeat cards as needed -->
+        </div>
+      </section>
+      <section class="cart">
+        <div class="card-cart">
+          <div class="cart-content">
+            <h2>Your Cart ( <span class="num">0</span> )</h2>
+            <div class="img-disc">
+              <img src="/assets/images/illustration-empty-cart.svg" alt="" />
+              <p>Your added items appear here</p>
+            </div>
+            <!-- <div class="row-order">
+              <div class="price-order">
+                <p class="name-order">Classic Tiramisu</p>
+                <span class="num">x1</span> <span class="one-of">@$5.50</span>
+                <span class="total">$5.50</span>
+              </div>
+              <i class="fa-regular fa-circle-xmark"></i>
+            </div> -->
+            <div class="total-order">
+              <div class="total-msg">Order Total</div>
+              <div class="total-price">$0</div>
+            </div>
+          </div>
+          <button class="confirm">Confirm Order</button>
+        </div>
+      </section>
+    </div>
+    <div class="popup-container hidden"></div>
+    <div class="popup hidden">
+      <i class="fa-regular fa-circle-check"></i>
+      <h1 class="title-pop">Order Confirmed</h1>
+      <p class="paragraph-pop">We hope to enjoy your Food!</p>
+      <div class="popup-content">
+        <div class="total-order">
+          <div class="total-msg">Order Total</div>
+          <div class="total-price">$0</div>
+        </div>
+      </div>
+      <button class="confirm start-new-order">Start New Order</button>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
