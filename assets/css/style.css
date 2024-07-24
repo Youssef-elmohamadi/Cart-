@@ -310,7 +310,7 @@ button .fa-cart-plus {
   transition: 0.3s;
   z-index: 9999;
   max-height: 80vh;
-  overflow: scroll;
+  overflow: auto;
 }
 .popup i {
   font-size: 40px;
