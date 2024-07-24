@@ -14,7 +14,7 @@ let totalPrice = 0;
 let myRequest = new XMLHttpRequest();
 let cartData = {};
 
-myRequest.open("GET", "/assets/js/data.json", true);
+myRequest.open("GET", "assets/js/data.json", true);
 myRequest.send();
 
 myRequest.onreadystatechange = function () {
